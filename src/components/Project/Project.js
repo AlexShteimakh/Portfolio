@@ -8,7 +8,7 @@ const Project = ({ title, img, index }) => {
  <li className="project">
      
         <img src={img} alt={title} className="project__img" />
-        {index}
+        {/* {index} */}
         <h3 className="project__title">{title}</h3>
       
     </li>
